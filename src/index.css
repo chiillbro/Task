@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#link::after {
+  content: "|";
+  color: white;
+  font-size: 14px;
+  padding: 0 8px;
+}
